@@ -1,4 +1,4 @@
 .idea/
 venv/
-__pycachhe__/
+__pycache__/
 trial.py

@@ -3,7 +3,11 @@ from .Helpers import extract_array
 
 
 class Language:
+
     def get_all_words(self):
+        """
+            Return the all words contains in the langauge as a list of string.
+        """
         print("get all words")
 
     async def get_all_words_async(self):
@@ -260,10 +264,10 @@ class Gujarati(Language):
 
 class HaitianCreole(Language):
     def get_all_words(self):
-        return extract_array(type(self).__name__)
+        return extract_array("Haitian%20Creole")
 
     async def get_all_words_async(self):
-        return extract_array_async(type(self).__name__)
+        return extract_array_async("Haitian%20Creole")
 
 
 class Hausa(Language):
@@ -628,10 +632,10 @@ class Samoan(Language):
 
 class ScotsGaelic(Language):
     def get_all_words(self):
-        return extract_array(type(self).__name__)
+        return extract_array("Scots%20Gaelic")
 
     async def get_all_words_async(self):
-        return extract_array_async(type(self).__name__)
+        return extract_array_async("Scots%20Gaelic")
 
 
 class Serbian(Language):

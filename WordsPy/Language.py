@@ -2,19 +2,7 @@ from .Helpers import extract_array_async
 from .Helpers import extract_array
 
 
-class Language:
-
-    def get_all_words(self):
-        """
-            Return the all words contains in the langauge as a list of string.
-        """
-        print("get all words")
-
-    async def get_all_words_async(self):
-        print("get all words async")
-
-
-class Afrikaans(Language):
+class Afrikaans:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -22,7 +10,7 @@ class Afrikaans(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Amharic(Language):
+class Amharic:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -30,7 +18,7 @@ class Amharic(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Arabic(Language):
+class Arabic:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -38,7 +26,7 @@ class Arabic(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Armenian(Language):
+class Armenian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -46,7 +34,7 @@ class Armenian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Azerbaijani(Language):
+class Azerbaijani:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -54,7 +42,7 @@ class Azerbaijani(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Basque(Language):
+class Basque:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -62,7 +50,7 @@ class Basque(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Belarusian(Language):
+class Belarusian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -70,7 +58,7 @@ class Belarusian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Bengali(Language):
+class Bengali:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -78,7 +66,7 @@ class Bengali(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Bosnian(Language):
+class Bosnian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -86,7 +74,7 @@ class Bosnian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Bulgarian(Language):
+class Bulgarian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -94,7 +82,7 @@ class Bulgarian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Catalan(Language):
+class Catalan:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -102,7 +90,7 @@ class Catalan(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Cebuano(Language):
+class Cebuano:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -110,7 +98,7 @@ class Cebuano(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Chichewa(Language):
+class Chichewa:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -118,7 +106,7 @@ class Chichewa(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Chinese(Language):
+class Chinese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -126,7 +114,7 @@ class Chinese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Corsican(Language):
+class Corsican:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -134,7 +122,7 @@ class Corsican(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Croatian(Language):
+class Croatian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -142,7 +130,7 @@ class Croatian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Czech(Language):
+class Czech:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -150,7 +138,7 @@ class Czech(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Danish(Language):
+class Danish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -158,7 +146,7 @@ class Danish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Dutch(Language):
+class Dutch:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -166,7 +154,7 @@ class Dutch(Language):
         return extract_array_async(type(self).__name__)
 
 
-class English(Language):
+class English:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -174,7 +162,7 @@ class English(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Esperanto(Language):
+class Esperanto:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -182,7 +170,7 @@ class Esperanto(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Estonian(Language):
+class Estonian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -190,7 +178,7 @@ class Estonian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Filipino(Language):
+class Filipino:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -198,7 +186,7 @@ class Filipino(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Finnish(Language):
+class Finnish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -206,7 +194,7 @@ class Finnish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class French(Language):
+class French:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -214,7 +202,7 @@ class French(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Frisian(Language):
+class Frisian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -222,7 +210,7 @@ class Frisian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Galician(Language):
+class Galician:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -230,7 +218,7 @@ class Galician(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Georgian(Language):
+class Georgian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -238,7 +226,7 @@ class Georgian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class German(Language):
+class German:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -246,7 +234,7 @@ class German(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Greek(Language):
+class Greek:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -254,7 +242,7 @@ class Greek(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Gujarati(Language):
+class Gujarati:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -262,7 +250,7 @@ class Gujarati(Language):
         return extract_array_async(type(self).__name__)
 
 
-class HaitianCreole(Language):
+class HaitianCreole:
     def get_all_words(self):
         return extract_array("Haitian%20Creole")
 
@@ -270,7 +258,7 @@ class HaitianCreole(Language):
         return extract_array_async("Haitian%20Creole")
 
 
-class Hausa(Language):
+class Hausa:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -278,7 +266,7 @@ class Hausa(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Hawaiian(Language):
+class Hawaiian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -286,7 +274,7 @@ class Hawaiian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Hebrew(Language):
+class Hebrew:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -294,7 +282,7 @@ class Hebrew(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Hindi(Language):
+class Hindi:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -302,7 +290,7 @@ class Hindi(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Hmong(Language):
+class Hmong:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -310,7 +298,7 @@ class Hmong(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Hungarian(Language):
+class Hungarian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -318,7 +306,7 @@ class Hungarian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Icelandic(Language):
+class Icelandic:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -326,7 +314,7 @@ class Icelandic(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Igbo(Language):
+class Igbo:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -334,7 +322,7 @@ class Igbo(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Indonesian(Language):
+class Indonesian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -342,7 +330,7 @@ class Indonesian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Irish(Language):
+class Irish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -350,7 +338,7 @@ class Irish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Italian(Language):
+class Italian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -358,7 +346,7 @@ class Italian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Japanese(Language):
+class Japanese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -366,7 +354,7 @@ class Japanese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Javanese(Language):
+class Javanese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -374,7 +362,7 @@ class Javanese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Kannada(Language):
+class Kannada:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -382,7 +370,7 @@ class Kannada(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Kazakh(Language):
+class Kazakh:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -390,7 +378,7 @@ class Kazakh(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Khmer(Language):
+class Khmer:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -398,7 +386,7 @@ class Khmer(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Kinyarwanda(Language):
+class Kinyarwanda:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -406,7 +394,7 @@ class Kinyarwanda(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Korean(Language):
+class Korean:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -414,7 +402,7 @@ class Korean(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Kurdish(Language):
+class Kurdish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -422,7 +410,7 @@ class Kurdish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Kyrgyz(Language):
+class Kyrgyz:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -430,7 +418,7 @@ class Kyrgyz(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Lao(Language):
+class Lao:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -438,7 +426,7 @@ class Lao(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Latin(Language):
+class Latin:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -446,7 +434,7 @@ class Latin(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Latvian(Language):
+class Latvian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -454,7 +442,7 @@ class Latvian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Lithuanian(Language):
+class Lithuanian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -462,7 +450,7 @@ class Lithuanian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Luxembourgish(Language):
+class Luxembourgish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -470,7 +458,7 @@ class Luxembourgish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Macedonian(Language):
+class Macedonian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -478,7 +466,7 @@ class Macedonian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Malagasy(Language):
+class Malagasy:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -486,7 +474,7 @@ class Malagasy(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Malay(Language):
+class Malay:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -494,7 +482,7 @@ class Malay(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Malayalam(Language):
+class Malayalam:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -502,7 +490,7 @@ class Malayalam(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Maltese(Language):
+class Maltese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -510,7 +498,7 @@ class Maltese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Maori(Language):
+class Maori:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -518,7 +506,7 @@ class Maori(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Marathi(Language):
+class Marathi:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -526,7 +514,7 @@ class Marathi(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Mongolian(Language):
+class Mongolian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -534,7 +522,7 @@ class Mongolian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Myanmar(Language):
+class Myanmar:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -542,7 +530,7 @@ class Myanmar(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Nepali(Language):
+class Nepali:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -550,7 +538,7 @@ class Nepali(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Norwegian(Language):
+class Norwegian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -558,7 +546,7 @@ class Norwegian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Odia(Language):
+class Odia:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -566,7 +554,7 @@ class Odia(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Pashto(Language):
+class Pashto:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -574,7 +562,7 @@ class Pashto(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Persian(Language):
+class Persian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -582,7 +570,7 @@ class Persian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Polish(Language):
+class Polish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -590,7 +578,7 @@ class Polish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Portuguese(Language):
+class Portuguese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -598,7 +586,7 @@ class Portuguese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Punjabi(Language):
+class Punjabi:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -606,7 +594,7 @@ class Punjabi(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Romanian(Language):
+class Romanian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -614,7 +602,7 @@ class Romanian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Russian(Language):
+class Russian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -622,7 +610,7 @@ class Russian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Samoan(Language):
+class Samoan:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -630,7 +618,7 @@ class Samoan(Language):
         return extract_array_async(type(self).__name__)
 
 
-class ScotsGaelic(Language):
+class ScotsGaelic:
     def get_all_words(self):
         return extract_array("Scots%20Gaelic")
 
@@ -638,7 +626,7 @@ class ScotsGaelic(Language):
         return extract_array_async("Scots%20Gaelic")
 
 
-class Serbian(Language):
+class Serbian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -646,7 +634,7 @@ class Serbian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Sesotho(Language):
+class Sesotho:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -654,7 +642,7 @@ class Sesotho(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Shona(Language):
+class Shona:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -662,7 +650,7 @@ class Shona(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Sindhi(Language):
+class Sindhi:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -670,7 +658,7 @@ class Sindhi(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Sinhala(Language):
+class Sinhala:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -678,7 +666,7 @@ class Sinhala(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Slovak(Language):
+class Slovak:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -686,7 +674,7 @@ class Slovak(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Slovenian(Language):
+class Slovenian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -694,7 +682,7 @@ class Slovenian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Somali(Language):
+class Somali:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -702,7 +690,7 @@ class Somali(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Spanish(Language):
+class Spanish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -710,7 +698,7 @@ class Spanish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Sundanese(Language):
+class Sundanese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -718,7 +706,7 @@ class Sundanese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Swahili(Language):
+class Swahili:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -726,7 +714,7 @@ class Swahili(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Swedish(Language):
+class Swedish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -734,7 +722,7 @@ class Swedish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Tajik(Language):
+class Tajik:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -742,7 +730,7 @@ class Tajik(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Tamil(Language):
+class Tamil:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -750,7 +738,7 @@ class Tamil(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Tatar(Language):
+class Tatar:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -758,7 +746,7 @@ class Tatar(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Telugu(Language):
+class Telugu:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -766,7 +754,7 @@ class Telugu(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Thai(Language):
+class Thai:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -774,7 +762,7 @@ class Thai(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Turkish(Language):
+class Turkish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -782,7 +770,7 @@ class Turkish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Turkmen(Language):
+class Turkmen:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -790,7 +778,7 @@ class Turkmen(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Ukranian(Language):
+class Ukranian:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -798,7 +786,7 @@ class Ukranian(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Urdu(Language):
+class Urdu:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -806,7 +794,7 @@ class Urdu(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Uyghur(Language):
+class Uyghur:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -814,7 +802,7 @@ class Uyghur(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Uzbek(Language):
+class Uzbek:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -822,7 +810,7 @@ class Uzbek(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Vietnamese(Language):
+class Vietnamese:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -830,7 +818,7 @@ class Vietnamese(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Welsh(Language):
+class Welsh:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -838,7 +826,7 @@ class Welsh(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Xhosa(Language):
+class Xhosa:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -846,7 +834,7 @@ class Xhosa(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Yiddish(Language):
+class Yiddish:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -854,7 +842,7 @@ class Yiddish(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Yoruba(Language):
+class Yoruba:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
@@ -862,7 +850,7 @@ class Yoruba(Language):
         return extract_array_async(type(self).__name__)
 
 
-class Zulu(Language):
+class Zulu:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 

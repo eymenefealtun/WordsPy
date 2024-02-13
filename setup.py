@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '1.0.0'
 DESCRIPTION = 'Get words for any langauge.'
 LONG_DESCRIPTION = 'A package allows developers to retrieve millions of words for the requested language with just one line of code.'
 

@@ -5,3 +5,4 @@ WordsPy/trial.py
 build/
 dist/
 WordsPy.egg-info
+hidden/

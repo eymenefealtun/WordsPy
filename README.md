@@ -23,7 +23,6 @@ WordsPy can be installed using the pip command.
 pip install WordsPy
 ```
 
----
 
 ### Example
 ```python
@@ -35,19 +34,16 @@ english_words = english_language.get_all_words() # return all the available word
   
 random_english_words = Wp.get_random_words(turkish_words, 5) # retun 5 random words from the list  
 ```
----
 
 ### Available languages
 [All words in all languages](https://github.com/eymenefealtun/all-words-in-all-languages) 
 
----
 
 ### How to contribute?
  1. [Fork](https://github.com/eymenefealtun/WordsPy/fork) the repository.
  2. Make changes.
  3. Submit a pull request.
  
----
 
 ### How to support?
 * [Buy me a coffee](https://www.buymeacoffee.com/altuneymenefe) 

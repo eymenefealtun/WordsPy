@@ -13,7 +13,7 @@ A Python library allows developers to retrieve millions of words for the request
 
   
 
-![LexiExtract](https://raw.githubusercontent.com/eymenefealtun/LexiExtract/master/RepoResources/LexiExtractMainIcon.png)
+![LexiExtract](https://raw.githubusercontent.com/eymenefealtun/WordsPy/master/RepoResources/WordsPyIcon.png)
 
   
 

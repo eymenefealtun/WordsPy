@@ -14,3 +14,42 @@ A Python library allows developers to retrieve millions of words for the request
   
 
 [![PyPi](https://img.shields.io/pypi/v/wordspy)](https://pypi.org/project/matplotlib/)  [![Downloads](https://img.shields.io/pypi/dm/wordspy)](https://pypi.org/project/wordspy)
+
+
+
+## Install
+WordsPy can be installed using the pip command.
+```
+pip install WordsPy
+```
+
+---
+
+### Example
+```python
+import WordsPy as Wp  
+  
+english_language = Wp.English()  
+  
+english_words = english_language.get_all_words() # return all the available words in language
+  
+random_english_words = Wp.get_random_words(turkish_words, 5) # retun 5 random words from the list  
+```
+---
+
+### Available languages
+[All words in all languages](https://github.com/eymenefealtun/all-words-in-all-languages) 
+
+---
+
+### How to contribute?
+ 1. [Fork](https://github.com/eymenefealtun/WordsPy/fork) the repository.
+ 2. Make changes.
+ 3. Submit a pull request.
+ 
+---
+
+### How to support?
+* [Buy me a coffee](https://www.buymeacoffee.com/altuneymenefe) 
+or 
+* Bitcoin: 19di2VDYV9cNrvrsqhZJeT8yXqwuRZ5PGx

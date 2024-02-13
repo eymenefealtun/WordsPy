@@ -8,8 +8,3 @@ def get_main_url(language):
 def extract_array(language_name):
     return requests.get(get_main_url(language_name)).text.split(",")
 
-
-async def extract_array_async(language_name):
-    print("async is currently not available. use default one!")
-
-

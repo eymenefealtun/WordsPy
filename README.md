@@ -22,7 +22,8 @@ A Python library allows developers to retrieve millions of words for the request
 [![PyPi](https://img.shields.io/pypi/v/wordspy)](https://pypi.org/project/wordspy/) [![Downloads](https://img.shields.io/pypi/dm/wordspy)](https://pypi.org/project/wordspy)
 
   
-  
+## Important Note:
+Via this library, you are going to be sending a GET request to the [all-words-in-all-languages](https://github.com/eymenefealtun/all-words-in-all-languages).
   
 
 ## Install

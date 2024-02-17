@@ -48,7 +48,7 @@ english_language = Wp.English()
 
 english_words = english_language.get_all_words() # return all the available words in language
 
-random_english_words = Wp.get_random_words(turkish_words, 5) # retun 5 random words from the list
+random_english_words = Wp.get_random_words(english_words, 5) # retun 5 random words from the list
 
 ```
 

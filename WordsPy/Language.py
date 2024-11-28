@@ -385,6 +385,10 @@ class Samoan:
     def get_all_words(self):
         return extract_array(type(self).__name__)
 
+class Sanskrit:
+    def get_all_words(self):
+        return extract_array(type(self).__name__)
+
 
 class ScotsGaelic:
     def get_all_words(self):
